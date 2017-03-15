@@ -1,1 +1,1 @@
-This is a repository for 'UNIX' homeworks.
+This is a repository for `UNIX` homeworks.
