@@ -1,0 +1,1 @@
+sed -e 's/,/<\/td> <td>/g' -e 's/^/\t<tr><td>/g' -e 's/$/<\/td><\/tr>/g' -e '1s/^/<html>\n<table>\n<style type=\"text\/css\">table { border-collapse: collapse; } table, th, td { border: 1px solid black}<\/style>/' -e '$a<\/table>\n<\/html>' -i book
